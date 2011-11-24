@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>@internal.group.id@</groupId>
+	<artifactId>development-all</artifactId>
+	<name>Internal development-all</name>
+	<version>@version@</version>
+	<description>Wrapper for all internal Liferay development dependencies.</description>
+	<url>http://www.liferay.com</url>
+	<packaging>pom</packaging>
+  <distributionManagement>
+    <repository>
+      <id>@repository.id@</id>
+      <name>Local deploy repository</name>
+      <layout>@repository.layout@</layout>
+      <url>@repository.url@</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </distributionManagement>	
+	<dependencies>
