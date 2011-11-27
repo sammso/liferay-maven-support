@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<archetype-descriptor name="liferay-archetype">
+	<fileSets>
+		<fileSet encoding="UTF-8" filtered="true">
+			<directory>portal-client</directory>
+		</fileSet>
+		<fileSet encoding="UTF-8" filtered="true">
+			<directory>portal-impl</directory>
+		</fileSet>
+		<fileSet encoding="UTF-8" filtered="true">
+			<directory>portal-service</directory>
+		</fileSet>
+		<fileSet encoding="UTF-8" filtered="true">
+			<directory>portal-web</directory>
+		</fileSet>
+		<fileSet encoding="UTF-8" filtered="true">
+			<directory>tunnel-web</directory>
+		</fileSet>
+		<fileSet encoding="UTF-8" filtered="true">
+			<directory>support-tomcat</directory>
+		</fileSet>
+		<fileSet encoding="UTF-8" filtered="true">
+			<directory>util-bridges</directory>
+		</fileSet>
+		<fileSet encoding="UTF-8" filtered="true">			
+			<directory>util-java</directory>
+		</fileSet>
+		<fileSet encoding="UTF-8" filtered="true">			
+			<directory>util-taglib</directory>
+		</fileSet>			
+	</fileSets>
+</archetype-descriptor>
