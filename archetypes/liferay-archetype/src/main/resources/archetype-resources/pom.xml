@@ -59,6 +59,5 @@
 		<module>portal-client</module>
 		<module>support-tomcat</module>
 		<module>portal-web</module>
-		<module>tunnel-web</module>
 	</modules>
 </project>

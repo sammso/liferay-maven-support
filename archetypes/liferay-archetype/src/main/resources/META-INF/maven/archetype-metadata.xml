@@ -15,9 +15,6 @@
 			<directory>portal-web</directory>
 		</fileSet>
 		<fileSet encoding="UTF-8" filtered="true">
-			<directory>tunnel-web</directory>
-		</fileSet>
-		<fileSet encoding="UTF-8" filtered="true">
 			<directory>support-tomcat</directory>
 		</fileSet>
 		<fileSet encoding="UTF-8" filtered="true">
